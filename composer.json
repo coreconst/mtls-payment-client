@@ -1,0 +1,18 @@
+{
+    "name": "coreconst/mtls-payment-client",
+    "description": "PHP package for mTLS payment gateway integration with HMAC signing",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Coreconst\\MtlsPaymentClient\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Kostya Parfylo",
+            "email": "parfilokostya0@gmail.com"
+        }
+    ],
+    "require": {}
+}
