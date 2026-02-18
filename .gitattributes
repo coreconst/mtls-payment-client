@@ -1,0 +1,7 @@
+/.idea export-ignore
+/.vscode export-ignore
+/.env export-ignore
+/.env.example export-ignore
+/tests/ export-ignore
+docker-compose.yml export-ignore
+Dockerfile export-ignore

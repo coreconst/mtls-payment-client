@@ -3,9 +3,22 @@
     "description": "PHP package for mTLS payment gateway integration with HMAC signing",
     "type": "library",
     "license": "MIT",
+    "require": {
+        "php": "^8.3",
+        "guzzlehttp/guzzle": "^7.10",
+        "vlucas/phpdotenv": "^5.6"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^12.0"
+    },
     "autoload": {
         "psr-4": {
             "Coreconst\\MtlsPaymentClient\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Coreconst\\MtlsPaymentClient\\Tests\\": "tests/"
         }
     },
     "authors": [
@@ -14,5 +27,10 @@
             "email": "parfilokostya0@gmail.com"
         }
     ],
-    "require": {}
+    "config": {
+        "sort-packages": true
+    },
+    "scripts": {
+        "test": "phpunit"
+    }
 }
