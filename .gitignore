@@ -2,3 +2,4 @@
 .env
 /certs
 .idea/
+.phpunit.result.cache
